@@ -1,0 +1,40 @@
+#top{
+    height:200px;
+    background-color: #f5f0e1;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 500;
+    border-bottom:7px solid #ff6e40;
+}
+
+#main{
+    margin-top:4rem;
+    justify-content:center;
+    display: inline-flex;
+    height:70%;
+    width:100%;
+}
+
+
+.card{
+    width:22%;
+    margin-left:8px;
+    margin-right:8px;
+    margin-bottom:8px;
+    padding:0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(29, 29, 29, 0.19);
+    background-color: #ffc13b;
+}
+
+.card-title{
+    background-color: #1e3d59;
+    color:rgb(255, 255, 255);
+    font-size: 1.6rem;
+    font-weight: 3rem;
+    padding-bottom:1.3rem;
+}
+
+.titles{
+    padding-left:1.3rem;
+}
